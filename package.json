@@ -1,0 +1,41 @@
+{
+  "name": "text-crypt",
+  "version": "0.0.0",
+  "description": "Node.js library to simplify text crypto",
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "engineStrict": true,
+  "main": "./bin/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "eslint -c ./.eslintrc.js --resolve-plugins-relative-to ./ './src/**/*.ts'",
+    "lint:fix": "eslint --fix -c ./.eslintrc.js --resolve-plugins-relative-to ./ './src/**/*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valera-rozuvan/text-crypt.git"
+  },
+  "keywords": [
+    "crypto",
+    "encryption",
+    "text"
+  ],
+  "author": "Valera Rozuvan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valera-rozuvan/text-crypt/issues"
+  },
+  "homepage": "https://github.com/valera-rozuvan/text-crypt#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.2",
+    "@types/node": "^12.12.56",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.11.0"
+  }
+}
