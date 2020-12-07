@@ -1,7 +1,7 @@
 import { randHex } from './randHex'
 
 function rndIV(): string {
-  return randHex(8)
+  return randHex(16)
 }
 
 export {
