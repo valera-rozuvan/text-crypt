@@ -1,2 +1,3 @@
 # text-crypt
-Node.js library to simplify text crypto
+
+Node.js library and CLI to simplify text crypto
